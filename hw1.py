@@ -8,16 +8,18 @@ def input_list():
                 input_list.append(number)
                 break
             else:
-                print("Please input a number")
+                print("Please input a number, such as 1, 2, 3...")
 def sum ():
     sum = 0 #I dont know here how we can make the operation of adding to create a new list
-    for number in input_list():
-        sum = sum + number
-        return sum
+    for i in range(n):
+        i = i + sum
+        sum = i
+        input_list.append(number)
+    print(input_list())
 
 def main():
 
-    input_list()
-    sum()
-    
+    list = input_list()
+    sum(list)
+
 main()
