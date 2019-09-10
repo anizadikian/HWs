@@ -15,11 +15,6 @@ class Classroom:
                 break
         return is_Free
 
-    def book(self, start, end):
-        self.classstart = start
-        self.classend = end
-        print("Start of the class: ", self.classstart, "Finish class: ", self.classend)
-
     def reserve(self, start, end):
         if (self.isFree(start, end)):
             timeslot = {"start": start, "end": end}
