@@ -78,5 +78,5 @@ def main():
                             print(userclassroominput.schedule)
 
                     else:
-                        print(classroom1.schedule)
+                        print(userclassroominput.schedule)
 main()
