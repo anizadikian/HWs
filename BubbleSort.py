@@ -1,10 +1,15 @@
 def bubblesort():
-  list = [10, 1, 3, 9, 4, 2]
+
+    list = [10, 1, 3, 9, 4, 2]
+    print(list)
     for i in range(len(list) - 1, 0, -1):
         no_swap = True
         for j in range(0, i):
-            if alist[j + 1] < alist[j]:
-                alist[j], alist[j + 1] = alist[j + 1], alist[j]
+            if list[j + 1] < list[j]:
+                list[j], list[j + 1] = list[j + 1], list[j]
                 no_swap = False
         if no_swap:
-            return
+            print(list)
+            return list
+
+bubblesort()
