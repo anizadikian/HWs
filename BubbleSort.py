@@ -1,7 +1,6 @@
 def bubblesort():
 
     list = [10, 1, 3, 9, 4, 2]
-    print(list)
     for i in range(len(list) - 1, 0, -1):
         no_swap = True
         for j in range(0, i):
